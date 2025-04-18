@@ -1,4 +1,4 @@
-# 🏆 Runner-Up Score Finder in Python
+# 🏆 Hackerrank:Runner-Up Score Finder in Python
 
 ## 🎯 AIM:
 To write a Python program that takes a list of scores from participants and finds the **runner-up score** (i.e., the second-highest score), eliminating any duplicates.

@@ -1,4 +1,4 @@
-# # 🔢 Square Even Numbers and Cube Odd Numbers from a List in Python
+# # 🔢 Hackerrank:Square Even Numbers and Cube Odd Numbers from a List in Python
 
 ## 🎯 AIM:
 To develop a Python program that creates a list of integers within a specified range and squares all **even** numbers while cubing all **odd** numbers using a **lambda** function.

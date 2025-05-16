@@ -27,8 +27,21 @@ To write a Python function that takes a long string and a specified width, and r
 
 ## 🧪 Program
 Add Code Here
+```
+import textwrap
+def wrap_string(long_string, width):
+    wrapped_text = textwrap.fill(long_string, width)
+    return wrapped_text
+long_string = input("Enter a long string: ")
+width = int(input("Enter the desired width for wrapping: "))
 
+wrapped_string = wrap_string(long_string, width)
+
+print("\nWrapped String:")
+print(wrapped_string)
+```
 ## Sample Output
+![image](https://github.com/user-attachments/assets/0c2801a9-0989-4f33-be0c-71584f4aa4a1)
 
 ## Result
-
+Thus the program has been executed successfully.

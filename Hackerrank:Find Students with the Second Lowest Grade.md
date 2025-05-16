@@ -28,9 +28,27 @@ To write a Python program to:
 ## 💻  Program
 
 Add Code Here
+```
+def second_lowest_grade(students_grades):
+    grades = sorted(set(grade for name, grade in students_grades))
+    second_lowest = grades[1]
+    second_lowest_students = sorted([name for name, grade in students_grades if grade == second_lowest])
 
+    return second_lowest_students
+n = int(input("Enter the number of students: "))
+students_grades = []
+for _ in range(n):
+    name = input("Enter student name: ")
+    grade = float(input(f"Enter grade for {name}: "))
+    students_grades.append((name, grade))
+result = second_lowest_grade(students_grades)
+print("\nStudents with the second lowest grade:")
+for student in result:
+    print(student)
+```
 ## Output
+![image](https://github.com/user-attachments/assets/eb8aa398-7cca-4386-afcd-2dbf1630dcd2)
 
 ## Result
-
+Thus the program has been executed successfully.
 
